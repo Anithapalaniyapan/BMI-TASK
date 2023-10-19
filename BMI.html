@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .container2 {
+      border-radius: 20px;
+      box-shadow: 30px;
+     background-color:rgb(243, 9, 56);
+    
+     position: absolute;
+     padding: 50px;
+     width: 400px;
+     height: 200px;
+     margin-top: 200px;
+     margin-left: 400px;
+    /* padding-left: 500px; */
+    }
+    
+    .btn{
+      margin-top: 10px;
+      width: 100px;
+      margin-left: 80px;
+    }
+    .but{
+      margin-top: 10px;
+      width: 150px;
+      height: 20px;
+      margin-left: 70px;
+    }
+    .inputbox{
+      margin-bottom: 1rem;
+
+    
+    }
+    
+  </style>
+  <body style="background-image: linear-gradient(to left,rgb(252, 48, 48),rgb(71, 71, 252));">
+    <div class="container1">
+    <div class="container2">
+        <center>
+        <h1>Body Mass Index</h1>
+        <div class="inputbox">
+       <label>Mass Value</label>
+      
+          <input type="text" name="Mass Value"id="input" style=" border: 3px solid darkcyan;
+          border-radius: 5px;"/> <br>
+        </div>
+        <label>Height Value</label>
+        <input type="text" name="Mass Value" id="inputs" style=" border: 3px solid darkcyan;
+          border-radius: 5px;"/>
+
+
+        <div>
+        <button class="btn" id="buttons" style=" background-color:antiquewhite; 
+        border: 3px solid darkcyan;
+         border-radius: 5px;" onclick="convert()">Click Here</button>
+       </div> 
+       <div>
+        <button id="result" class="but" style= "border: 3px solid darkcyan;
+        border-radius: 5px;"></button>
+      </div>
+      </div>
+ </div>
+</center>
+
+    <script src="BMI.js"></script>
+  </body>
+</html>
